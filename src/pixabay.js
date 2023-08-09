@@ -2,7 +2,6 @@ import axios from 'axios';
 const BASE_KEY = '38684699-073e3ca44cfac762c4f7025b5';
 const BASE_URL = 'https://pixabay.com/api/';
 
-
 export async function requestServer(request, page) {
   const options = {
     params: {
